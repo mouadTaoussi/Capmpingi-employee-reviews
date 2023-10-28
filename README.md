@@ -1,20 +1,34 @@
-https://chat.openai.com/share/ba9cca7b-b802-44d1-9556-45f309bd880f
+## Campingi Employee reviews
 
-No problem friend, here are column names with brif explanation:
+This repository contains analysis about Campingi employee reviews from different experience levels and different backgounds, the main process for these analysis starts from cleaning and wragling data using the Pandas library in Python, then, the output has been used to create a report using the Power BI tool for business intelligence.
 
-Title: The job title or role of the employee providing the review
-Place: The geographical location or city where the employee works
-Job_type: The employment status of the reviewer (e.g., Full Time)
-Department: The specific department or functional area within the organization
-Date: The date when the review was submitted
-Overall_rating: A numerical rating given by the employee for their overall job satisfaction
-work_life_balance: Rating indicating the work-life balance experienced by the employee
-skill_development: Rating reflecting the opportunities for skill enhancement and growth
-salary_and_benefits: Rating assessing the satisfaction with compensation and benefits
-job_security: Rating expressing the employee's sense of job security
+This dataset is on [kaggle](https://www.kaggle.com/datasets/manishkr1754/capgemini-employee-reviews-dataset)
 
+## Data elements
 
-Great! Thank you for providing the column names and brief explanations. Based on this information, here are some key questions you can explore and include in your data visualization report:
+**Title**: The job title or role of the employee providing the review
+
+**Place**: The geographical location or city where the employee works
+
+**Job_type**: The employment status of the reviewer (e.g., Full Time)
+
+**Department**: The specific department or functional area within the organization
+
+**Date**: The date when the review was submitted
+
+**Overall_rating**: A numerical rating given by the employee for their overall job satisfaction
+
+**work_life_balance**: Rating indicating the work-life balance experienced by the employee
+
+**skill_development**: Rating reflecting the opportunities for skill enhancement and growth
+
+**salary_and_benefits**: Rating assessing the satisfaction with compensation and benefits
+
+**job_security**: Rating expressing the employee's sense of job security
+
+## Key questions
+
+Here are some key questions you can explore and include in your data visualization report:
 
 1. What is the distribution of overall job satisfaction ratings among Capgemini employees?
 2. Is there a correlation between work-life balance and overall job satisfaction?
@@ -25,4 +39,4 @@ Great! Thank you for providing the column names and brief explanations. Based on
 7. How do employees' perceptions of job security relate to their overall job satisfaction?
 8. Can we identify any seasonal trends or patterns in employee reviews, considering the "Date" column?
 
-These questions should provide a good starting point for your data visualization report. You can use charts, graphs, and statistical analysis to answer these questions and gain insights into employee reviews at Capgemini.
+These questions should provide a good starting point for our data visualization report. We can use charts, graphs, and statistical analysis to answer these questions and gain insights into employee reviews at Capgemini.
